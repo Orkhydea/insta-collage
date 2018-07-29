@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#div1, div2, div3 {
+    height: 15vh;
+    padding: 10px;
+    border: 1px solid white;
+}
+.container{
+display: inline-block;
+}
+*/
