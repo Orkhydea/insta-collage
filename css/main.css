@@ -2,13 +2,19 @@
     padding: 0;
     margin: 0;
 }
-#div1, div2{
+.one{
     height: 15vh;
-    padding: 10px;
-    border: 1px solid white;
-    float: left;
+    padding: 1vh;
+    margin: 1vh;
 }
-.col{
-    margin: 0;
-    padding: 0;
+.two{
+    height: 30vh;
+    padding: 1vh;
+    margin: 1vh;
+}
+img{
+    width: 100%;
+}
+.gato{
+   padding: 0%;
 }
