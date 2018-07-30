@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
 }
-#div1, div2, div3 {
+#div1, div2{
     height: 15vh;
     padding: 10px;
     border: 1px solid white;
+    float: left;
 }
-.container{
-display: inline-block;
+.col{
+    margin: 0;
+    padding: 0;
 }
