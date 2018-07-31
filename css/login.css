@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+ }
+body{
+    background: linear-gradient(135deg, rgba(235,204,226,1) 0%, rgba(128,219,134,1) 0%, rgba(220,121,164,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    padding: 2vh;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 10vh;
+  }
+section{
+    text-align: center;
+}
+button, input, label{
+    width: 50vh;
+    margin: 2vh;
+    background-color: transparent;
+    height: 8vh;
+    color: white;
+}
+a{
+    color: white;
+}

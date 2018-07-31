@@ -1,13 +1,16 @@
 function allowDrop(ev) {
     ev.preventDefault();
 }
-
+var dragged = null;
 function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
+    dragged = ev.target;
+    //ev.dataTransfer.setData("text", ev.target.id);
 }
 
 function drop(ev) {
     ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
+    //var data = ev.dataTransfer.getData("text");
+    //dragged.src
+    //crateelement
+    ev.target.appendChild(dragged);
 }
