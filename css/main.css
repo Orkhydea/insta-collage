@@ -5,7 +5,7 @@
 .one{
     height: 15vh;
     padding: 1vh;
-    margin: 1vh;
+    outline:1px solid red;
 }
 .two{
     height: 30vh;
