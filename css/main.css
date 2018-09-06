@@ -17,7 +17,13 @@ img{
 }
 .gato{
    padding: 0%;
+   float: left;
+   width: 15vh;
+   height: 15vh;
 }
 .row:hover{
     background-color: aquamarine;
+}
+footer{
+    position: ;
 }

@@ -12,5 +12,6 @@ function drop(ev) {
     //var data = ev.dataTransfer.getData("text");
     //dragged.src
     //crateelement
+    dragged.parentElement.style.display = "none";
     ev.target.appendChild(dragged);
 }
